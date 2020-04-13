@@ -83,8 +83,8 @@ rotate(angle);
    { mercury.destroy(); 
   } 
    angle = angle + angleSpeed; 
-   //if (frameCount % 1 === 0) 
-  // { sun.scale = sun.scale + 0.01; } 
+   if (frameCount % 1 === 0) 
+   { sun.scale = sun.scale + 0.01; } 
    
    //drawSprites();
    
